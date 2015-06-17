@@ -3,28 +3,24 @@
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <style>
 
-            .share-btn, .share-btn:focus {
+            .share-btn, .share-btn:focus, .share-btn:active  {
                 display: inline-block;
-                color: #ffffff;
+                color: #fff;
                 border: none;
                 padding: 0.5em;
                 width: 4em;
                 opacity: 0.9;
-                box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
                 outline: none;
                 text-align: center;
+                text-decoration: none;
             }
 
             .share-btn:hover {
-              color: #eeeeee;
-            }
-
-            .share-btn:active {
-              position: relative;
-              top: 2px;
-              box-shadow: none;
-              color: #e2e2e2;
-              outline: none;
+                color: #fff;
+                text-decoration: none;
+                box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+                opacity: 1;
             }
 
             .share-btn.twitter { background: #55acee; }
